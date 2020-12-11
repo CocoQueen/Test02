@@ -133,8 +133,77 @@ public class RunTest {
 //        }
 //        System.out.println("2020年" + month + "月" + day + "日是今年的第"+sumDay+"天");
 
+        /*
+         * 编写程序从1循环到150，并在每行打印一个值
+         * 另外在每个3的倍数行上打印出”foo“
+         * 在每个5的倍数上打印出”biz“
+         * 在每个7的倍数上打印出”baz“
+         * */
+//        for (int i = 1; i <= 150; i++) {
+//            System.out.print(i + "    ");
+//            if (i % 3 == 0) {
+//                System.out.print("foo    ");
+//            }
+//            if (i % 5 == 0) {
+//                System.out.print("biz    ");
+//            }
+//            if (i % 7 == 0) {
+//                System.out.print("baz    ");
+//            }
+//            System.out.println();
+//        }
+
+        /*
+         * 题目：输入两个正整数m和n，求其最大公约数和最小公倍数
+         * 比如：12和20的最大公约数是4，最小公倍数是60
+         * 说明：break关键字的使用
+         * */
+
+//        Scanner scanner = new Scanner(System.in);
+//        System.out.println("请输入第一个正整数");
+//        int m = scanner.nextInt();
+//        System.out.println("请输入第二个正整数");
+//        int n = scanner.nextInt();
+        //获取两个数中的较小值
+//        int min = (m <= n) ? m : n;
+//        for (int i = min; i >= 1; i--) {
+//            if (m % i == 0 && n % i == 0) {
+//                System.out.println("最大公约数为：" + i);
+//                break;//一旦在循环中执行到break，就跳出循环
+//            }
+//        }
+        //获取两个数中的较大值
+//        int max = (m >= n) ? m : n;
+//        for (int i = max; i <= m * n; i++) {
+//            if (i%m==0&&i%n==0){
+//                System.out.println("最小公倍数为：" + i);
+//                break;
+//            }
+//        }
+        //while循环
+//        int i = 1;
+//        while (i <= 100) {
+//            if (i % 2 == 0) {
+//                System.out.println(i);
+//            }
+//            i++;
+//        }
+        //do-while循环
+//        int num = 1;
+//        do {
+//            if (num % 2 == 0) {
+//                System.out.println(num);
+//            }
+//            num++;
+//        } while (num <= 100);
+
+        //嵌套循环
+//        for (int i = 1; i <= 5; i++) {//控制行数
+//            for (int j = 1; j <= i; j++) {//控制列数
+//                System.out.print("*");
+//            }
+//            System.out.println();
+//        }
 
     }
-
-
 }
