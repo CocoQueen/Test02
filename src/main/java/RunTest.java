@@ -205,5 +205,30 @@ public class RunTest {
 //            System.out.println();
 //        }
 
+//        //开方
+//        double sqrt = Math.sqrt(4);
+//        System.out.println(sqrt);
+
+        //break和continue关键字对比
+//        for (int i = 1; i <= 10; i++) {
+//            if (i % 4 == 0) {
+////                break;//1、2、3
+//                continue;//1、2、3、5、6、7、9、10
+//            }
+//            System.out.println(i);
+//        }
+
+        //结束指定标识的一层循环
+//        label:for (int i = 1; i <= 3; i++) {
+//            for (int j = 1; j <=10; j++) {
+//                if (j % 4 == 0) {
+////                    break label;//结束指定标识的一层循环
+////                    continue label;;
+//                }
+//                System.out.print(j);
+//            }
+//            System.out.println();
+//        }
+
     }
 }
