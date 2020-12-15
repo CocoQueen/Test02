@@ -230,5 +230,43 @@ public class RunTest {
 //            System.out.println();
 //        }
 
+        //一维数组的声明和初始化
+        int num;//声明
+        num = 10;//初始化
+        int id = 1001;//声明+初始化
+        int[] ids;//声明
+        //静态初始化:数组的初始化和数组元素的赋值操作同时进行
+        ids = new int[]{1001, 1002, 1003, 1004};
+        //动态初始化：数组的初始化和数组元素的赋值操作分开进行
+        String[] names = new String[4];
+
+        //调用数组指定位置的元素：通过下标的方式调用
+        //数组的下标（或索引）从0开始的，到数组的长度-1结束
+        names[0] = "哈哈哈1";
+        names[1] = "哈哈哈2";
+        names[2] = "哈哈哈3";
+        names[3] = "哈哈哈4";
+        //获取某一个值得第某个字符charAt()
+        char c = names[3].charAt(3);
+        System.out.println(c);
+        //获取数组得长度
+        int length = names.length;
+        System.out.println(length);
+        //遍历数组
+        for (int i = 0; i < names.length; i++) {
+            String name = names[i];
+            System.out.println(name);
+        }
+        //数组元素的默认初始化值
+        int[] arr = new int[4];
+        for (int i = 0; i < arr.length; i++) {
+            System.out.println(arr[i]);
+        }
+
+        //二维数组
+        int[][] arr1 = new int[][]{{1, 2, 3}, {4, 5}, {6, 7, 8}};
+        String[][] arr2 = new String[3][2];
+
+
     }
 }
