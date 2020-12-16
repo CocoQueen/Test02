@@ -267,6 +267,21 @@ public class RunTest {
         int[][] arr1 = new int[][]{{1, 2, 3}, {4, 5}, {6, 7, 8}};
         String[][] arr2 = new String[3][2];
 
+        //冒泡排序
+        int[] arrs = new int[]{43, 32, 76, -98, 0, 64, 33, -21, 99};
+        for (int i = 0; i < arrs.length - 1; i++) {
+            for (int j = 0; j < arrs.length - 1 - i; j++) {
+                if (arrs[j] > arrs[j + 1]) {
+                    int temp = arrs[j];
+                    arrs[j] = arrs[j + 1];
+                    arrs[j + 1] = temp;
+                }
+            }
+        }
+
+        for (int i = 0; i < arrs.length; i++) {
+            System.out.print(arrs[i]+"   ");
+        }
 
     }
 }
