@@ -448,7 +448,7 @@ JRE=JVM+Java SE 标准库
   * 小知识： 一旦程序出现异常，未处理时，就终止执行
   
 ## 面向对象 
- * Java类及类的成员：属性、方法、构造器【掌握】；代码块、内部类【熟悉】
+ * 主线一：Java类及类的成员：属性、方法、构造器【掌握】；代码块、内部类【熟悉】
     * 面向过程（POP）与面向对象(OOP)
         * 二者都是一种思想，面向对象是相对于面向过程而言的。面向过程，强调的是功能行为，以函数为最小单位，考虑怎么做。面向对象，将功能
           封装进对象，强调具备了功能的对象，以类/对象为最小单位，考虑谁来做。
@@ -528,9 +528,9 @@ JRE=JVM+Java SE 标准库
         注意：static、final、abstract来修饰的方法，后面说
     * 再谈方法
     * 类的成员之三：构造器
- * 面向对象的三大特征：封装、继承、多态、（抽象性）【掌握】
+ * 主线二：面向对象的三大特征：封装、继承、多态、（抽象性）【掌握】
     * OOP特征一：封装与隐藏
- * 其他关键字：this、super、static、final、abstract、interface、package、import等
+ * 主线三：其他关键字：this、super、static、final、abstract、interface、package、import等
      * 关键字：this
      * 关键字：package、import
  
